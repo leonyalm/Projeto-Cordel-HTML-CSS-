@@ -1,0 +1,167 @@
+*{
+      margin: 0px;
+      padding: 0px;
+
+
+}
+
+
+main{
+  font-size: larger;
+}
+
+html, body{
+  min-height: 100vh;
+
+}
+
+header{
+  background-color: black;
+}
+
+
+@font-face {
+  font-family: 'cordel';
+  src: url(fontes/CampanaScript_PERSONAL_USE_ONLY.otf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poema';
+  src: url(fontes/Simple\ Cake.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'cordel','Times New Roman', serif;
+  font-size: 80px; 
+}
+
+p{
+  text-align: center;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 38px;
+  font-family: 'cordel','Times New Roman', serif;
+}
+
+a{
+
+  color: white;
+  text-decoration: underline;
+
+}
+
+a:hover{
+  
+  color: bisque;
+}
+
+.Site{
+  color: bisque; 
+}
+ h2{
+  padding-top: 20px;
+ 
+ }
+
+ section{
+   padding-top: 10vh;
+   padding-bottom: 10vh;
+   font-family: 'poema', Times, serif;
+   font-variant: small-caps;
+ }
+
+#Um{
+  height: 500px;
+  width: 300px;
+  background-color: rgba(204, 166, 109, 0.352);
+  padding-left: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#dois{
+
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+#Segundo{
+  background-color: rgba(5, 5, 5, 0.749);
+  width: 300px;
+  height: 360px;
+  padding: 10px;
+  padding-top: 30px;
+  color: white;
+  border-radius: 10px;
+  
+  
+}
+
+#Tres{
+  width: 300px;
+  height: 780px;
+  background-color: rgba(204, 166, 109, 0.352);
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+ 
+
+}
+
+#quatro{
+    
+  background-image: url(pacote-d012/imagens/background002.jpg);
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+  padding-left: 10px;
+  padding-top: 30px;
+  
+  
+
+}
+#Quarto{
+  background-color: rgba(57, 56, 56, 0.507);
+  width: 300px;
+  height: 360px;
+  padding: 10px;
+  padding-top: 30px;
+  border-radius: 10px;
+  color: rgb(231, 224, 224);
+}
+
+#cinco{
+  height: 750px;
+  width: 300px;
+  background-color: rgba(204, 166, 109, 0.352);
+  border-radius: 10px;
+  padding-left: 10px;
+  
+
+}
+
+footer{
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
